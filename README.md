@@ -1,4 +1,4 @@
-# 📊 Análisis de E-commerce: Amazon India
+#  Análisis de E-commerce: Amazon India
 
 
 
@@ -6,7 +6,7 @@ En este proyecto he trabajado con un dataset de ventas de Amazon India. El objet
 
 
 
-## 🛠️ 1. Limpieza y Transformación (Power Query)
+##  1. Limpieza y Transformación (Power Query)
 
 Para empezar, puse orden en la estructura de los datos para que el modelo fuera escalable y eficiente:
 
@@ -18,7 +18,7 @@ Para empezar, puse orden en la estructura de los datos para que el modelo fuera 
 
 
 
-## 🧠 2. Estrategia de Calidad (Ratings y Nulos)
+##  2. Estrategia de Calidad (Ratings y Nulos)
 
 En las métricas de feedback (`ratings` y `no_of_ratings`) encontré bastantes valores nulos. Aquí aplique:
 
@@ -32,7 +32,7 @@ En las métricas de feedback (`ratings` y `no_of_ratings`) encontré bastantes v
 
 
 
-## 🚀 3. Ingeniería de Características (Feature Engineering)
+##  3. Ingeniería de Características (Feature Engineering)
 
 Para realizar mas completo el analisis incluimos columnas importantes: 
 
