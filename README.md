@@ -62,3 +62,4 @@ Para garantizar que el dashboard sea práctico y esté bien organizado, he reali
 * **Acción:** Eliminación definitiva de las columnas `link` e `image`.
 * **Justificación:** En un informe analítico de este tipo, estas columnas no tienen ninguna utilidad real dentro de las visualizaciones o gráficos. Mantenerlas solo genera ruido en el panel de datos, dificultando la búsqueda de los campos que realmente importan para el negocio.
 
+## 2. Modelado y DAX
