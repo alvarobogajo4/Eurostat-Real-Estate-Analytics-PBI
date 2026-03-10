@@ -18,7 +18,7 @@ Para empezar, puse orden en la estructura de los datos para que el modelo fuera 
 
 
 
-##  2. Estrategia de Calidad (Ratings y Nulos)
+### Estrategia de Calidad (Ratings y Nulos)
 
 En las métricas de feedback (`ratings` y `no_of_ratings`) encontré bastantes valores nulos. Aquí aplique:
 
@@ -32,7 +32,7 @@ En las métricas de feedback (`ratings` y `no_of_ratings`) encontré bastantes v
 
 
 
-##  3. Ingeniería de Características (Feature Engineering)
+###  Ingeniería de Características (Feature Engineering)
 
 Para realizar mas completo el analisis incluimos columnas importantes: 
 
@@ -55,3 +55,10 @@ Para realizar mas completo el analisis incluimos columnas importantes:
    * **Alto:** Ahorro > 20.000 rupias.
 
    * **Sin descuento:** Para los valores nulos. ME QUEDA
+  
+  ### Optimización de Performance (Limpieza de Metadatos)
+Para garantizar que el dashboard sea práctico y esté bien organizado, he realizado una limpieza selectiva de las columnas que no aportan valor al análisis visual:
+
+* **Acción:** Eliminación definitiva de las columnas `link` e `image`.
+* **Justificación:** En un informe analítico de este tipo, estas columnas no tienen ninguna utilidad real dentro de las visualizaciones o gráficos. Mantenerlas solo genera ruido en el panel de datos, dificultando la búsqueda de los campos que realmente importan para el negocio.
+
